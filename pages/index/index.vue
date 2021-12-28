@@ -1,14 +1,10 @@
 <template>
 	<view class="test">
-		<view class="test-title">
-			代码
-		</view>
+
 		<text class="test-text">
 			{{content}}
 		</text>
-		<view class="test-title">
-			效果
-		</view>
+
 		<view class="test-show" :style="style">
 			<view class="test-view" :style="{backgroundColor:item.color}" v-for="(item,index) in list" :key='index'>
 				{{item.title}}
@@ -16,9 +12,8 @@
 		</view>
 
 		<view class="test-title">
-			滑动item数量
+			滑动改变item数量
 		</view>
-
 		<view class="test-slider">
 			<slider show-value value="list.length" @change="sliderChange" @changing="sliderChange" step="1"
 				activeColor='#007AFF' min="1" max="3" block-size="20" />
@@ -66,7 +61,6 @@
 				</view>
 			</template>
 		</view>
-
 	</view>
 </template>
 
@@ -220,7 +214,7 @@
 					// 	'seletecd': false
 					// },
 				];
-				for (let i = 0; i < 3; i++) {
+				for (let i = 0; i < 1; i++) {
 					let map = {
 						'title': this.list.length + 1,
 						'color': this.color16(),
@@ -247,18 +241,17 @@
 		margin-bottom: 20rpx;
 	}
 
-
 	.test-text {
 		color: #333333;
 		font-size: 24rpx;
-		margin-bottom: 40rpx;
+		margin-bottom: 20rpx;
 	}
 
 	.test-show {
 		background-color: #FFFFFF;
 		display: flex;
 		margin-bottom: 20rpx;
-		height: 200rpx;
+		height: 240rpx;
 	}
 
 	.test-tag {
@@ -276,7 +269,7 @@
 			flex-direction: row;
 			align-items: center;
 			justify-content: center;
-			border: 1px solid #999999;
+			border: 1px solid #d5d5d5;
 			padding-left: 10rpx;
 			padding-right: 10rpx;
 
@@ -291,7 +284,7 @@
 			.text {
 				line-height: 50rpx;
 				color: #666666;
-				font-size: 32rpx;
+				font-size: 24rpx;
 			}
 		}
 	}
@@ -303,9 +296,11 @@
 		flex-direction: column;
 		margin: 20rpx;
 		padding: 20rpx;
+
 		.test-title {
-			font-size: 32rpx;
+			font-size: 28rpx;
 			color: #333333;
+			font-weight: 600;
 			margin-bottom: 10rpx;
 		}
 
@@ -317,6 +312,8 @@
 			line-height: 50rpx;
 			text-align: center;
 			color: #FFFFFF;
+			margin-right: 20rpx;
+			margin-bottom: 20rpx;
 		}
 	}
 </style>

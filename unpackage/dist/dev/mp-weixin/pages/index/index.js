@@ -202,12 +202,6 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
-//
-//
-//
-//
-//
-//
 var _default =
 {
   data: function data() {
@@ -358,7 +352,7 @@ var _default =
       // 	'seletecd': false
       // },
       ];
-      for (var i = 0; i < 3; i++) {
+      for (var i = 0; i < 1; i++) {
         var map = {
           'title': this.list.length + 1,
           'color': this.color16(),
