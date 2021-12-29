@@ -1,6 +1,10 @@
 # flex布局可视化工具
 
-![image.png](https://upload-images.jianshu.io/upload_images/1419035-181d8b44a5b9c821.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/)
+**如果没有uniapp基础，请先移步uniapp入门** [传送门](https://www.notion.so/uniapp-52f889b3ea124e988bdefc0f415a9afc)  
+
+  
+
+![image.png](https://upload-images.jianshu.io/upload_images/1419035-181d8b44a5b9c821.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/248)
 
 ### flex-direction 容器内项目的排列方向(默认横向排列)
 

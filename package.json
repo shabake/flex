@@ -1,0 +1,20 @@
+{
+  "name": "flex",
+  "version": "1.0.0",
+  "description": "**如果没有uniapp基础，请先移步uniapp入门** [传送门](https://www.notion.so/uniapp-52f889b3ea124e988bdefc0f415a9afc)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shabake/flex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shabake/flex/issues"
+  },
+  "homepage": "https://github.com/shabake/flex#readme"
+}
